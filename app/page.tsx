@@ -190,7 +190,7 @@ export default function Portfolio() {
               <div>
                 <p className="hero-greeting">HELLO!</p>
                 <h1 className="hero-title">
-                  I'm <span className="hero-name-highlight">Sean</span>
+                  I&apos;m <span className="hero-name-highlight">Sean</span>
                   <br />
                   Matthew
                 </h1>
