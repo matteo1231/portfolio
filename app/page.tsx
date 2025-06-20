@@ -11,32 +11,32 @@ export default function Portfolio() {
       title: "BitMonke",
       description:
         "A 1st year college project that demonstrates proficiency in MySQL integration in a Java-built program.",
-      image: "/images/projects/ecommerce-platform.jpg",
-      github: "https://github.com/username/ecommerce-platform",
+      image: "/images/projects/bitmonkelogo.png",
+      github: "https://github.com/matteo1231/BitMonke",
       tech: ["Java", "MySQL"],
     },
     {
       title: "Taskify",
       description:
         "A 2nd year college project that functions as a web based task assignment management platform",
-      image: "/images/projects/task-management.jpg",
-      github: "https://github.com/username/task-manager",
+      image: "/images/projects/nophoto.png",
+      github: "https://github.com/matteo1231/TASK-TRACKER",
       tech: ["Php", "CSS"],
     },
     {
       title: "Care++",
       description:
         "A responsive weather dashboard that displays current conditions, forecasts, and interactive maps using weather APIs.",
-      image: "/images/projects/weather-dashboard.jpg",
-      github: "https://github.com/username/weather-dashboard",
+      image: "/images/projects/careplus.png",
+      github: "https://github.com/12Thirty8/CarePlus",
       tech: ["Java", "MySQL", "JavaFX"],
     },
     {
       title: "Auth/JWT",
       description:
         "A short backend-focused project that implements user registration, login, and token-based authentication using RESTful APIs",
-      image: "/images/projects/portfolio-website.jpg",
-      github: "https://github.com/username/portfolio",
+      image: "/images/projects/auth.png",
+      github: "https://github.com/matteo1231/auth-system",
       tech: ["JavaScript", "MongoDB"],
     },
   ]
@@ -58,7 +58,7 @@ export default function Portfolio() {
       title: "Development",
       skills: "Full-Stack Development",
       description:
-        "Has experienec building complete applications from backend logic to user-facing frontend interfaces. A handful experience with RESTful APIs, database design, and UI/UX considerations.",
+        "Has experience building complete applications from backend logic to user-facing frontend interfaces. A handful experience with RESTful APIs, database design, and UI/UX considerations.",
     },
   ]
 
@@ -112,7 +112,7 @@ export default function Portfolio() {
   function ImageCarousel() {
     const [currentImage, setCurrentImage] = useState(0)
 
-    const images = ["/images/about/profile-1.jpg", "/images/about/profile-2.jpg"]
+    const images = ["/images/about/profile-1.jpg.png", "/images/about/profile-2.jpg.png"]
 
     useEffect(() => {
       const interval = setInterval(() => {
@@ -201,7 +201,7 @@ export default function Portfolio() {
             </div>
             <div className="hero-image-container">
               <Image
-                src="/images/hero/profile-main.jpg"
+                src="/images/hero/profile-main.jpg.png"
                 alt="Clark Thompson - Web Developer"
                 width={500}
                 height={600}
