@@ -399,7 +399,7 @@ Development, Information Management, Databases
             <h2 className="section-title">
               <span className="title-highlight">Contact</span>
             </h2>
-            <p className="section-subtitle">Let's connect and discuss opportunities</p>
+            <p className="section-subtitle">Let&apos;s connect and discuss opportunities</p>
           </div>
           <div className="contact-links-grid">
             <a
