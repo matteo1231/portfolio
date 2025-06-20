@@ -255,8 +255,10 @@ export default function Portfolio() {
                 </div>
               </div>
               <div style={{ paddingTop: "1rem" }}>
-                <button className="btn-primary">DOWNLOAD CV</button>
-              </div>
+  <a href="/Fronda_Resume.pdf" download className="btn-primary">
+    DOWNLOAD CV
+  </a>
+</div>
             </div>
           </div>
         </div>
