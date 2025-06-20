@@ -26,7 +26,7 @@ export default function Portfolio() {
     {
       title: "Care++",
       description:
-        "A responsive weather dashboard that displays current conditions, forecasts, and interactive maps using weather APIs.",
+        " A 3rd year college project that functions as a basic Clinic Management System",
       image: "/images/projects/careplus.png",
       github: "https://github.com/12Thirty8/CarePlus",
       tech: ["Java", "MySQL", "JavaFX"],
